@@ -2,10 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nablon.github.io/categories/</loc>
+    <loc>https://nablon.github.io/post/2021-06-24-build-website/</loc>
+    <lastmod>2021-06-24T00:08:05-07:00</lastmod>
+  </url><url>
+    <loc>https://nablon.github.io/post/</loc>
+    <lastmod>2021-06-24T00:08:05-07:00</lastmod>
   </url><url>
     <loc>https://nablon.github.io/</loc>
+    <lastmod>2021-06-24T00:08:05-07:00</lastmod>
+  </url><url>
+    <loc>https://nablon.github.io/tags/css/</loc>
+    <lastmod>2020-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nablon.github.io/tags/html/</loc>
+    <lastmod>2020-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nablon.github.io/tags/markdown/</loc>
+    <lastmod>2020-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nablon.github.io/post/markdown-syntax/</loc>
+    <lastmod>2020-01-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nablon.github.io/tags/</loc>
+    <lastmod>2020-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nablon.github.io/tags/themes/</loc>
+    <lastmod>2020-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nablon.github.io/post/placeholder-text/</loc>
+    <lastmod>2019-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nablon.github.io/tags/text/</loc>
+    <lastmod>2019-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nablon.github.io/post/math-typesetting/</loc>
+    <lastmod>2019-12-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nablon.github.io/tags/emoji/</loc>
+    <lastmod>2019-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nablon.github.io/post/emoji/</loc>
+    <lastmod>2019-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nablon.github.io/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nablon.github.io/about/</loc>
   </url>
 </urlset>

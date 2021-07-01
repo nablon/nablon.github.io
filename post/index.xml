@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Soo Hyoung Eric Cheong</title>
-    <link>https://nablon.github.io/</link>
-    <description>Recent content on Soo Hyoung Eric Cheong</description>
+    <title>Posts on Soo Hyoung Eric Cheong</title>
+    <link>https://nablon.github.io/post/</link>
+    <description>Recent content in Posts on Soo Hyoung Eric Cheong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Jun 2021 00:08:05 -0700</lastBuildDate><atom:link href="https://nablon.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Jun 2021 00:08:05 -0700</lastBuildDate><atom:link href="https://nablon.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building personal website with Hugo and Github pages</title>
       <link>https://nablon.github.io/post/2021-06-24-build-website/</link>
@@ -50,24 +50,6 @@
       
       <guid>https://nablon.github.io/post/emoji/</guid>
       <description>Emoji can be enabled in a Hugo project in a number of ways.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://nablon.github.io/archives/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://nablon.github.io/archives/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Who am I?</title>
-      <link>https://nablon.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nablon.github.io/about/</guid>
-      <description>I am a product engineer, an innovator, a lifelong learner, and a problem solver.</description>
     </item>
     
   </channel>
