@@ -2,13 +2,12 @@
 
 <html lang="en-us">
     <head>
-	<meta name="generator" content="Hugo 0.85.0" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no"/>
 
-    <title>ericspective</title>
+    <title>Building website with Hugo and Github pages | ericspective</title>
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -29,8 +28,6 @@
     
     
  
-    
-    <link rel="alternate" type="application/rss+xml" href="https://nablon.github.io/index.xml" title="ericspective" />
     </head>
 
     <body>
@@ -152,62 +149,94 @@
 
         <div id="content" class="content-container">
         
-<div class = "article-content">
-        
-        <div class="description">
-            <p>Hello, I&rsquo;m Eric Cheong.<br><br>Welcome to my website!</p>
-        </div>
-        
-        
-        
-        
-        <article>
-            <h2>
-                <a href="https://nablon.github.io/post/emoji/">
-                    Emoji Support
-                </a>
-            </h2>
-            <div>
-                <p>Emoji can be enabled in a Hugo project in a number of ways.</p>
-                
-            </div>
-            <div class="post-footer">
-            <time>December 3, 2019</time>
 
-            
-            
-                
-                    <a class="tag" href="/tags/emoji">#emoji</a>
-                
-                    <a class="tag" href="/tags/sample">#sample</a>
-                
-            
-            </div> 
-           
-        </article>
-        
+<h1 class="post-title">Building website with Hugo and Github pages</h1>
+    
+    <time>June 24, 2021</time>
+    
+    <div>
+        <p>
+        <p>How fitting is it that the first post on my website is about building this website?</p>
+<p>There are already a lot of great resources to help you (as it did for me).</p>
+<p>However, I just wanted to keep things simple.  Let&rsquo;s keep this simple and help you get your website set up with Hugo &amp; Github pages.</p>
+<h3 id="why-hugo">Why Hugo?</h3>
+<p>It is a static website generator, which is great for performance and simplicity.</p>
+<h3 id="why-github-pages">Why Github pages?</h3>
+<p>Free hosting and easy setup made this a simple decision.</p>
+<h3 id="can-you-just-tell-me-how-to-do-it">Can you just tell me how to do it?</h3>
+<p>Sure, let&rsquo;s do it!</p>
+<h5 id="set-up-your-github-repository">Set up your github repository</h5>
+<ol>
+<li>
+<p>Create a new <mark>public</mark> repository on GitHub named &lt;username&gt;.github.io (replace &ldquo;username&rdquo; with your username).  Or you can just create a project site with url &ldquo;<a href="http://username.github.io/repository%22">http://username.github.io/repository&quot;</a> where username is your username, and repository is the name of the repository.</p>
+</li>
+<li>
+<p>Create another repository for source code to (I suffixed this repository&rsquo;s name with <code>-source</code>)</p>
+</li>
+<li>
+<p>Install Hugo (for Windows):
+For Windows:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">choco install hugo-extended -confirm</code></pre></div>
+For macOS:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">brew install hugo</code></pre></div>
+Follow steps in <a href="https://chocolatey.org/install">https://chocolatey.org/install</a> to install Chocolatey if you haven&rsquo;t already
+For alternative package management or other OS <a href="https://gohugo.io/getting-started/installing/">https://gohugo.io/getting-started/installing/</a></p>
+</li>
+<li>
+<p>setup hugo website: hugo new site <username>.github.io</p>
+</li>
+</ol>
+<p>or hugo new site . in the directory</p>
+<ol start="2">
+<li>
+<p>clone the repository to your local machine.  May need to clone in different directory and then merge directory with</p>
+</li>
+<li>
+<p>use submodule to load Hugo theme
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">git submodule https://github.com/kimcc/hugo-theme-noteworthy.git themes/noteworthy</code></pre></div>
+I used a Hugo theme called Noteworthy because of simplicity:
+<a href="https://themes.gohugo.io/hugo-theme-noteworthy/">https://themes.gohugo.io/hugo-theme-noteworthy/</a></p>
+</li>
+</ol>
+<p>Take a look at the sample project in the theme&rsquo;s repository to see the types of customization that can be done.</p>
+<p>config.toml to make customization</p>
+<p>you can modify the UI by copying the source file in the theme submodule to same directory in your app and making changes.  The user&rsquo;s repository file overrides the theme&rsquo;s file.</p>
+<p>create posts with: hugo new posts/my-first-post.md
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">hugo server -D</code></pre></div>
+http://localhost:1313/</p>
+<p>build static pages for publishing website with hugo -D and files will be generated in public folder</p>
+<p>link the github dev repo to production repo</p>
+<p>in the <username>.github.io, add submodule by calling
+git submodule add -b master <a href="mailto:git@smith.github.io.git">git@smith.github.io.git</a> public so that public folder is used to update prod repository</p>
+<p>There you go! We are ready to get going.</p>
+<h4 id="sources">Sources:</h4>
+<ul>
+<li><a href="https://pages.github.com/">https://pages.github.com/</a></li>
+<li><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">https://gohugo.io/hosting-and-deployment/hosting-on-github/</a></li>
+<li><a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></li>
+<li><a href="https://www.mytechramblings.com/posts/create-a-website-with-hugo-and-gh/">https://www.mytechramblings.com/posts/create-a-website-with-hugo-and-gh/</a></li>
+<li><a href="https://youngkin.github.io/post/createafreeblogsite/">https://youngkin.github.io/post/createafreeblogsite/</a></li>
+</ul>
+
+        </p>
     </div>
+    
+
+    
+
+    <div class="page-footer">
         
-        <div class="paginator">
+        <hr class="footer-divider">
         
+            <a class="tag" href="/tags/hugo">#hugo</a>
         
-        <p>Page 2 of 2</p>
-        <div class="paginator-group">
-            
-            <a class="color-link" href="/">
-                    <svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
-                        <g class="color-arrow" fill="#63BDA2" fill-rule="nonzero">
-                            <polygon id="Path" points="1.75929935 4.50000282 5.3292523 7.62371165 4.6707477 8.37628835 0.240700645 4.49999718 4.67081049 0.623709205 5.32930951 1.37629079"></polygon>
-                            <polygon id="Path" points="13 4 13 5 1 5 1 4"></polygon>
-                        </g>
-                </svg>
-                Newer
-            </a>
-            
-            
-        </div>
+            <a class="tag" href="/tags/website">#website</a>
         
+            <a class="tag" href="/tags/github">#github</a>
+        
+      
     </div>
+
 
         
 
