@@ -17,42 +17,6 @@
     </item>
     
     <item>
-      <title>Markdown Syntax</title>
-      <link>https://nablon.github.io/post/markdown-syntax/</link>
-      <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://nablon.github.io/post/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://nablon.github.io/post/placeholder-text/</link>
-      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://nablon.github.io/post/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://nablon.github.io/post/math-typesetting/</link>
-      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://nablon.github.io/post/math-typesetting/</guid>
-      <description>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://nablon.github.io/post/emoji/</link>
-      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://nablon.github.io/post/emoji/</guid>
-      <description>Emoji can be enabled in a Hugo project in a number of ways.</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://nablon.github.io/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
